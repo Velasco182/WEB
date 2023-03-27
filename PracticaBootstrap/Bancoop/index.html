@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">  
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="shortcut icon" href="/Bancoop/icon/banco.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <title>Bancoop</title>
+
+    <!-- Autor: Rubén Velasco
+            Programa: ADSO
+                2023 -->
+    
+</head>
+<body>
+    <script src="/js/bootstrap.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+        
+      <main>
+        <nav class="shadow p-3 mb-xxl-1 bg-body rounded navbar navbar-expand-lg bg-body-tertiary imgBanner">
+          <div class="container-fluid">
+            <div><i class="bi-bank fs-1"></i><a class="navbar-brand fs-1" href="index.html">    BanCoop</a><br>
+            <span class="navbar-text fst-italic">
+              Te ayuda a alcanzar tus metas.</span></div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapse" aria-expanded="true" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapse">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">Créditos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Leasing</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Ahorros</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Servicio al Cliente</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      
+        <!-- <section class="py-5 text-center container">
+          <div class="row py-lg-5">
+            <div class="col-lg-6 col-md-8 mx-auto">
+                <a href="#" class="btn btn-primary my-2">Main call to action</a>
+                <a href="#" class="btn btn-secondary my-2">Secondary action</a>
+              </p>
+            </div>
+          </div>
+        </section> -->
+      
+        <div class="py-5 bg-light">
+          <div class="container">
+      
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 ">
+              <div class="col text-center">
+                <div class="card shadow rounded-top-4">
+                  <p class="shadow-lg enc fs-3 text-bg-dark">Ingresa a tu cuenta</p>
+                  <div class="card-body">
+                    <div class="form form-control">
+                      <label for="" class="form-label">Tipo de cuenta</label>
+                      <select class="form-select" aria-label="Default select example" required>
+                        <option selected value="1">Cuenta de Ahorros</option>
+                        <option value="2">Cuenta Corriente</option>
+                      </select>
+                      <label for="" class="form-label"> Cuenta </label><input type="number" class="form-control" name="cuenta" id="cta" placeholder="Número de cuenta" required>
+                      <label for="inputPassword" class="form-label"> Contraseña </label><input type="password" class="form-control" id="pw" placeholder="Ingresa tu contraseña" required><br>
+                      <button  type="submit" class="btn btn-dark mb-3" id="boton">Ingresar</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col text-center">
+                <div class="card shadow rounded-top-4">
+                  <p class="shadow-lg enc fs-3 text-bg-dark">Solicita nuestros productos</p>
+                  <img class="shadow" src="image/producto.png" alt="productos">      
+                  <div class="card-body">
+                    <p class="justify_text">Los productos financieros son aquellos contratos que adquirimos con entidades como bancos, cajas y cooperativas de ahorro para gestionar, ahorrar e invertir nuestro dinero. Aunque esto pueda sonar algo abstracto, es algo con lo que todos nos relacionamos en nuestro día a día en mayor o menor medida.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col text-center">
+                <div class="card shadow rounded-top-4">
+                  <p class="shadow-lg enc fs-3 text-bg-dark">Ahorro estudiantil</p>
+                  <img class="shadow" src="image/estudiantil.png" alt="estudiantil">      
+                  <div class="card-body">
+                    <p class="justify_text">Las Cuentas de ahorro para la educación (ESAs) permiten a los padres sacar a sus hijos del distrito público o escuelas chárter y recibir un depósito de fondos públicos en cuentas de ahorro autorizadas por el gobierno con usos múltiples pero restringidos.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col text-center">
+                <div class="card shadow rounded-top-4">
+                  
+                  <table class="fs-5 table form">
+                    <thead>
+                      <tr>
+                        <th scope="col" class="table-dark enc">Transacciones</th>
+                      </tr>
+                    </thead>
+                    <tbody class="table-group-divider">
+                      <tr>
+                        <td>Banca Personal</td>
+                      </tr>
+                      <tr>
+                        <td>Banca Empresarial</td>
+                      </tr>
+                      <tr>
+                        <td>Banca Seguros</td>
+                      </tr>
+                      <tr>
+                        <td>Pago de facturas</td>
+                      </tr>
+                    <!-- </tbody> -->
+                    <!-- <thead> -->
+                      <tr>
+                        <th scope="col" class="table-dark">Tarjetas de crédito</th>
+                      </tr>
+                    <!-- </thead> -->
+                    <!-- <tbody> -->
+                      <tr class="table-group-divider">
+                        <td>Credi Visa</td>
+                      </tr>
+                      <tr>
+                        <td>Credi MasterCard</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                    
+                </div>
+              </div>
+              <div class="col text-center">
+                <div class="card shadow rounded-top-4">
+                  <p class="shadow-lg enc fs-3 text-bg-dark">Crédito de vehículos</p>
+                  <img class="shadow" src="image/vehiculos.png" alt="vehiculos">      
+                  <div class="card-body">
+                    <p class="justify_text">Tiene dos opciones de financiación: un préstamo directo o la financiación del concesionario. Préstamo directo: significa que está tomando un préstamo de un banco, compañía financiera o de una cooperativa de crédito.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col text-center">
+                <div class="card shadow rounded-top-4">
+                  <p class="shadow-lg enc fs-3 text-bg-dark">Crédito hipotecario</p>
+                  <img class="shadow" src="image/hipotecario.png" alt="Hipotecario">      
+                  <div class="card-body">
+                    <p class="justify_text">Es un préstamo a mediano o largo plazo que se otorga para la compra, ampliación, reparación o construcción de una vivienda, compra de sitios, oficinas o locales comerciales. Este tipo de créditos permiten a las personas adquirir una vivienda.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+      </main>
+      
+      <footer class="text-center text-muted py-5">
+        <div class="container">
+          <p class="float-end mb-1">
+            <a href="#">Inicio</a>
+          </p>
+          <p class="mb-1">Contáctenos</p>
+          <p class="mb-0">Línea gratuita 018000-00001.</p>
+          <p class="mb-0">Banco entidad financiera - Todos los derechos reservados.</p>
+        </div>
+      </footer>
+    
+</body>
+</html>

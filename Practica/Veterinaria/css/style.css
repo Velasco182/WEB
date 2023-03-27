@@ -1,0 +1,141 @@
+body{
+    background-color:antiquewhite;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.774);
+    border-radius: 15px; 
+}
+
+#imgBanner{
+    max-width: 100%;
+    height: auto;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;    
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    display: flex;
+    white-space: nowrap;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+    margin-right: 52px;
+}
+
+nav ul li a:hover {
+    background-color:antiquewhite;
+    color: black;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr); 
+    gap: 20px;   
+    background-color: rgba(127, 255, 212, 0.404);
+    padding: 20px;
+    border-radius: 15px;
+    align-items: center;
+}
+
+h3{
+    text-align: center;
+}
+
+.div1{
+    color: black;
+    grid-column: span 2;
+    background-color: azure;
+    border-top-right-radius: 15px;
+    padding: 15px;
+}
+
+.div1 img{
+    width: 300px;
+    border-radius: 30px;
+}
+
+.div1 p{
+    text-align: justify;
+}
+
+.div1 table tr td img{
+    width: 100%;
+    justify-content: center;
+}
+.div1 table tr td p{
+    width: 90%;
+    justify-content: left;
+}
+
+.div2{
+    color: black;
+    grid-column: span 2;
+    background-color: blanchedalmond;
+    border-bottom-left-radius: 15px;
+    padding: 15px;
+}
+
+.div2 img{
+    width: 300px;
+    border-radius: 30px;
+}
+
+.div2 p{
+    text-align: justify;
+}
+
+.div2 table tr td img{
+    width: 100%;
+    justify-content: center;
+}
+.div2 table tr td p{
+    width: 90%;
+    justify-content: right;
+}
+
+.form{
+    color: black;
+    grid-row: initial;
+    background-color:rgb(255, 208, 150);
+    grid-row: span 2;
+    border-radius: 15px;
+    padding: 15px;
+    text-align: center;
+
+}
+
+.form legend{
+    background-color: rgb(255, 94, 94);
+    border-radius: 5px;
+}
+
+footer{
+    padding-top: 5px;
+}
+
+footer div table{
+    background-color:rgb(255, 208, 150); 
+    border-radius: 15px;
+}
+
+.table{
+    align-items: center;
+}

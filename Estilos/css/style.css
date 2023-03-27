@@ -1,0 +1,29 @@
+/*  "*" Aplica a todos los documentos.
+    "#main-title" Selectores de id, para un solo elemento. 
+    ".clase""p.clase" Selectores de clase hacen que los elemntos tengas estilos únicos y propios.
+
+*/
+body{
+    background-image: url(/Ejemplo/imagen/dog1.jpg);
+    margin-top: auto;
+}
+
+p{
+    background-color: rgba(255, 235, 205, 0.497);
+}
+#p1{
+    font-size:xx-large; 
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.titulos{
+    font-weight: bold;
+    font-size: 1.5em;
+    color: aquamarine;
+    text-align: center;
+}
+.textos{
+    font-weight: lighter;
+    font-size: 1em;
+    color: brown;
+}

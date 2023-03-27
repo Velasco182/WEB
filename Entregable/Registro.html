@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="shortcut icon" href="Iconos/referencia.png">
+</head>
+<body  style="background-color: bisque; ">
+    
+    <center><h1>Regístrate</h1>
+
+        <form style="background-color: rgba(137, 43, 226, 0.239); border-radius: 10px;">
+            <fieldset style="border-color: black;">
+                <legend>Datos Personales</legend>
+                <div>
+                    <label>Tipo de identificación </label>
+                    <input type="list" list="list1" required>
+                    <datalist id="list1">
+                        <option value="Cédula de Ciudadanía.">(CC)Cédula de Ciudadanía.</option>
+                        <option value="Cédula de Extranjería.">(CE)Cédula de Extranjería.</option>
+                        <option value="Tarjeta de Identidad.">(TI)Tarjeta de Identidad.</option>
+                        <option value="Registro Civil.">(RC)Registro Civil.</option>
+                    </datalist>
+                </div>
+                <div>
+                    <label>Número de identificación</label>
+                    <input type="number" minlength="7" maxlength="10" required>
+                </div>
+                <div>
+                    <label>Nombres</label>
+                    <input type="text" maxlength="30" required>
+                </div>
+                <div>
+                    <label>Apellido</label>
+                    <input type="text" maxlength="30" required>
+                </div>
+                <div>
+                    <label>Correo Electrónico</label>
+                    <input type="email" maxlength="30" required>
+                </div>
+                <div>
+                    <label>Género</label>
+                    <input type="list" list="sexo" required>
+                    <datalist id="sexo">
+                        <option value="Masculino.">(M)Masculino.</option>
+                        <option value="Femenino.">(F)Femenino.</option>
+                        <option value="No Sabe.">(N)No sabe.</option>
+                    </datalist>
+                </div>
+                <div>
+                    <label>Fecha de Nacimiento</label>
+                    <input type="date" min="2005-02-01" max="" required>
+                </div>
+                <div>
+                    <label>Color de Tema</label>
+                    <input type="color">
+                </div>
+                <div>
+                    <label>Sube una Foto</label>
+                    <input type="file" accept="image/png, image/jpg">
+                </div>
+                <div>
+                    <label>Contraseña</label>
+                    <input type="password" required maxlength="8" minlength="3">
+                </div>
+                <div>
+                    <label>Confirmar Contraseña</label>
+                    <input type="password" required>
+                </div>
+            </fieldset>
+            <input type="submit" value="Regístrate">
+            <input type="reset" value="Borrar">
+        </form>
+        <form action="Index.html"><input type="submit" value="Volver"></form>
+
+    </center>
+</body>
+<footer><hr><center>Entregable 15 Febrero 2023</center> </footer>
+</html>

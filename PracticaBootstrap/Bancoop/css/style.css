@@ -1,0 +1,40 @@
+.form{
+    padding: 20px;
+    margin-top: 0px;
+}
+
+.imgBanner{
+    background-image: url(/Bancoop/image/fondo.webp);
+    border-radius: 15px;
+    background-size: 100% auto;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+li:hover{
+    background-color: rgba(255, 255, 255, 0.788);
+    border-radius: 10px;
+    height: fit-content;
+    width: fit-content;
+    /* width: 150px; */
+}
+
+.enc{
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.justify_text{
+    text-align: justify;
+}
+
+tr:hover{
+    background-color: rgba(255, 255, 0, 0.637);
+    scale: 1.02;
+}
+
+.card:hover{
+    /* width: 100.7%; */
+    scale: 1.03;
+    transition: all.1ms;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenido</title>
+    <link rel="shortcut icon" href="Iconos/datos-seguros.png">
+</head>
+<body  style="background-color: bisque; ">
+    <!-- Ejercicio 15 Febrero 2023 -->
+    <center><h1>Inicia Sesión</h1>
+
+        <form action="/Ejercicios/Index.html" style="background-color: rgba(137, 43, 226, 0.239); border-radius: 10px;">
+            <fieldset style="border-color: black;">
+                <legend>Tus Credenciales</legend>
+                <div><img width="100px" src="Iconos/academic.png"></div>
+                <div>
+                    <label>Tipo de identificación </label>
+                    <input type="list" list="list1" required>
+                    <datalist id="list1">
+                        <option value="Cédula de Ciudadanía.">(CC)Cédula de Ciudadanía.</option>
+                        <option value="Cédula de Extranjería.">(CE)Cédula de Extranjería.</option>
+                        <option value="Tarjeta de Identidad.">(TI)Tarjeta de Identidad.</option>
+                        <option value="Registro Civil.">(RC)Registro Civil.</option>
+                    </datalist>
+                </div>
+                <div>
+                    <label>Número de identificación</label>
+                    <input type="number" minlength="7" maxlength="10" required>
+                </div>
+                <div>
+                    <label>Contraseña</label>
+                    <input type="password" maxlength="8" minlength="3" required>
+                </div>
+            </fieldset>
+            <input type="submit" value="Ingresar">
+            <a>¿Aún no te has registrado?</a><a href="Registro.html">Regístrate</a>
+        </form>
+        <form action="/Ejercicios/Index.html"><input type="submit" value="Cerrar" src=""></form><br>
+    </center>
+</body>
+<footer><hr><center>Entregable 15 Febrero 2023</center> </footer>
+</html>

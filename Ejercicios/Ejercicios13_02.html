@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 13/02/23</title>
+    <link rel="shortcut icon" href="Iconos/investigacion.png">
+</head>
+<body style="background-color: bisque; ">
+    
+    <div id="ejercicioListaOrdenada">
+
+        <center>
+            <h2>Lista ordenada de barrios 10 en Popayán.</h2>
+        </center>
+        <ol type="I">
+            <li>Lomas de granada.</li>
+            <li>Centro.</li>
+            <li>Villa del viento.</li>
+            <li>Limonar.</li>
+            <li>Guayabal.</li>
+        </ol>    
+        <ol start="8" type="A">
+            <li>San Rafael.</li>
+            <li>San Eduardo.</li>
+            <li>La Paz.</li>
+            <li>El Uvo.</li>
+            <li>Empedrado.</li>
+        </ol>
+       
+    </div>
+
+    <hr>
+
+    <div id="ejmTablas">
+
+        <center>
+            <h2>Ejemplo tablas.</h2>
+
+            <table border="1px">
+                <tr>
+                    <td rowspan="2"><h1>1</h1></td>
+                    <td><h3>2</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>3</h3></td>
+                </tr>
+            </table>
+            <br>
+            <table border="1px">
+                <tr>
+                    <td colspan="2"><h1>1</h1></td>
+                </tr>
+                <tr>
+                    <td><h3>2</h3></td>
+                    <td><h3>3</h3></td>
+                </tr>
+            </table>
+        </center>    
+    </div>
+
+    <div id="ejercicioTablas">
+
+        <center>
+            <h2>Horario ADSO.</h2>
+
+            <table border>
+                <tr align="center"> 
+                    <td colspan="7"><img src="Imagenes/logoSena.png" width="100px"></td>
+                </tr>
+                <tr align="center">
+                    <td colspan="4"><h1>PROGRAMA</h1></td><td colspan="3"><H1>ADSO</H1></td>
+                </tr>
+                <tr align="center">
+                    <td colspan="4"><h1>FICHA</h1></td><td colspan="3"><H1>2556678</H1></td>
+                </tr>
+                <tr align="center">
+                    <td><h3>FRANJA</h3></td><td><h3>LUNES</h3></td><td><h3>MARTES</h3></td><td><h3>MIÉRCOLES</h3></td><td><h3>JUEVES</h3></td><td><h3>VIERNES</h3></td><td><h3>SÁBADO</h3></td>   
+                </tr>
+                <tr align="center">
+                    <td><h3>1:00<BR>4:00</BR></h3></td><td><h3>JAVIER</h3></td><td><h3>SANDRA</h3></td><td><h3>JAVIER</h3></td><td><h3>JAVIER</h3></td><td><h3>PABLO</h3></td><td rowspan="3"><h3>LIBRE</h3></td>   
+                </tr>
+                <tr align="center">
+                    <TD><h3>4:00<BR>4:30</BR></h3></TD ><TD colspan="5"><h1>DESCANSO</h1></TD>
+                </tr>
+                <tr align="center">
+                    <td><h3>4:30<BR>7:00</BR></h3></td><td><h3>JAVIER</h3></td><td><h3>LEIDY</h3></td><td><h3>JAVIER</h3></td><td><h3>PABLO</h3></td><td><h3>PABLO</h3></td>  
+                </tr>
+            </table>
+
+        </center>    
+    </div>
+
+    <hr>
+
+    <div id="ejmFormulario">
+
+        <center>
+            <h2>Formulario básico.</h2>
+
+            <form action="" method="get">
+                <label>INGRESE SUS NOMBRES: </label> <input type="text" required maxlength="30" placeholder="Ingrese sus nombres Completo">
+                <br><label>INGRESE SU APELLIDO: </label> <input type="text" required maxlength="30" placeholder="Ingrese su Apellido">
+                <br><label>INGRESE SU FECHA DE NACIMIENTO: </label> <input required type="date">
+                <br><label>INGRESE UNA CONTRASEÑA: </label><input required type="password">
+                <br><label>INGRESE SU NÚMERO DE TELÉFONO: </label><input type="number" min="3000000000" maxlength="">
+                <br><input type="submit">
+                <input type="reset">
+            </form>
+        </center>
+    
+    </div>
+
+    <hr>
+
+    <div id="ejercicioFormulario">
+
+        <center>
+            <h2>Formulario.</h2>
+
+
+            <P>LOS CAMPOS QUE INCLUYEN * SON OBLIGATORIOS</P>
+            <form action="Index.html" method="get">
+                <table border="">
+                    <tr align="center">
+                        <td><label>INGRESE SU CÉDULA*</label></td><td><input required type="number" minlength="7" maxlength="10"></td>
+                    </tr>
+                    <tr align="center">
+                        <td><label>INGRESE SUS NOMBRES* </label></td><td><input required type="text" maxlength="30" placeholder="Ingrese sus nombres Completo"></td>
+                    </tr>
+                    <tr align="center">
+                        <td><label>INGRESE SU APELLIDO* </label></td><td><input required type="text" maxlength="30" placeholder="Ingrese su Apellido"></td>
+                    </tr>
+                    <tr align="center">
+                        <td><label>INGRESE SU CORREO </label></td><td><input type="email" maxlength="30" placeholder="Ingrese su correo"></td>
+                    </tr>
+                    <tr align="center">
+                        <td><label>INGRESE SU NÚMERO DE TELÉFONO</label></td><td><input type="number" min="3000000000"></td>
+                    </tr>
+                    <tr align="center">
+                        <td><label>INGRESE SU FECHA DE NACIMIENTO </label></td><td><input type="date" min="2005-02-01" max=""></td>
+                    </tr>
+                    <tr align="center">
+                        <td><label>FOTO</label></td><td><input type="file" accept="image/png, .jpg"></td>
+                    </tr>
+                    <tr align="center">
+                        <td>SEXO</td><td><input type="checkbox"><label>HOMBRE</label><Br>
+                                        <input type="checkbox"><label>MUJER</label></Br>
+                                        <input type="checkbox"><label>NO SABE</label></Br>
+                        </td>
+                    </tr>
+                    <tr align="center">
+                        <td>HOBBIES</td><td><input type="checkbox"><label>LEER</label><Br>
+                                        <input type="checkbox"><label>PASEAR</label><Br>
+                                        <input type="checkbox"><label>COCINAR</label><Br>
+                                        <input type="checkbox"><label>OTROS </label><BR>
+                                        <label>CUALES: </label><input type="text">
+                        </td>
+                    </tr>
+                    <tr align="center">
+                        <td><label>INGRESE UNA CONTRASEÑA </label></td><td><input type="password"></td>
+                    </tr>
+                </table>
+                
+                <br><input type="submit" >
+                <input type="reset">
+            </form>
+        </center>
+    
+    </div>
+
+    <hr>
+    <div>
+        <center><form action="Ejercicios15_02.html"><input style="background-color: rgba(137, 43, 226, 0.375); border-radius: 5px; color: aliceblue;" type="submit" value="ADELANTE" /></form>
+        <form action="Index.html"><input style="background-color: rgba(137, 43, 226, 0.375); border-radius: 5px; color: aliceblue;" type="submit" value="ATRÁS" /></form></center>
+    </div>
+    <hr>
+</body>
+<footer>
+    <center><p>Clase 13 Febrero 2023</p></center>
+</footer>
+</html>
